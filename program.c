@@ -72,7 +72,7 @@ double headwing;
     printf ("vent de face = %f\n", headwing);
 
 int takeoff;
-    takeoff = 300*(1+pressure_altitude/1000)*(1-0.01*max(0, temperature-15))*(1-headwind/ground_speed)*(weight/1157)²;
+    takeoff = 300*(1+pressure_altitude/1000)*(1-0.01*max(0, temperature-15))*(1-headwind/ground_speed)*(weight/1157)*(weight/1157);
     printf (" distance de décollage = %d\n",takeoff); 
 
 int wing_loading;
