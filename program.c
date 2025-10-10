@@ -93,3 +93,4 @@ int descent_speed;
      
     return; 
 }
+bool b_wind_angle = false 
